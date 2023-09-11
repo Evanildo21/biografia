@@ -1,0 +1,180 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:  Helvetica;
+    background: #6C7A89;
+    text-decoration: none;
+}
+header h1{
+    color: #fff;
+    padding: 15px;
+    text-align: center;
+    background-color: #3db36b;
+    font-family: 'Courier New';
+}
+#cabecalho #nome{
+   margin-left: 300px;
+   font-family: 'Courier New';
+   margin-top: 20px;
+   
+}
+#cabecalho #sobrenome{
+   margin-left: 350px;
+   font-family: 'Courier New';
+   
+}
+
+html{
+    scroll-behavior: smooth;
+    font-size: 90.5%;
+}
+#cabecalho{
+ height: 150px;
+ width: 95%;
+ margin: 0 auto;
+}
+#menu{
+  height:600px;
+width: 200px;
+float: left;
+margin-left: 60px;
+margin-top: 10px;
+background-color: #fafafaa6;
+border-radius: 3%;
+}
+#menu p{
+background-color: #fafafa09;
+text-decoration: underline;
+font-size: 17px;
+margin-left: 20px;
+line-height: 20px;
+}
+#menu h2{
+margin-top: 30px;
+background-color: #fafafa09;
+font-size: 17px;
+margin-left: 60px;
+line-height: 20px;
+
+}
+#texto1{
+height: 300px;
+width: 200px;
+float: left;
+margin-left: 60px;
+margin-top: 10px;
+
+}
+#principal{
+    height: 300px;
+    width: 300px;
+    
+    float: left;
+    margin-top: 10px;
+    margin-left: 10px;
+
+}
+#lado1{
+    height: 100px;
+    width: 350px;
+    font-size: 20pxl;
+    float:left;
+    margin-top: 10px;
+    margin-left: 10px;
+    font-weight: 700;
+    
+}
+#lado2{
+    height: 100px;
+    width: 400px;
+    font-size: 18px;
+    float:left;
+    margin-top: 10px;
+    margin-left: 10px;
+    
+
+}
+
+
+#lado3{
+    height: 100px;
+    width: 350px;
+    font-size: 20pxl;
+    float:left;
+    margin-top: 50px;
+    margin-left: 10px;
+    font-weight: 700;
+    font-style: italic;
+}
+
+#texto2{
+height: 300px;
+width: 700px;
+float: left;
+margin-left: 60px;
+margin-top: 40px;
+}
+
+#texto3{
+    height: 350px;
+    width: 700px;
+    float: left;
+    margin-left: 60px;
+    margin-top: 30px;
+}
+
+#foto2{
+    float: left;
+    margin-top: 10px;
+    margin-left: 10px;
+  
+}
+#foto3{
+    height: 300px;
+    width: 450px;
+    float: left;
+    margin-left: 60px;
+
+}
+#texto4{
+    height: 250px;
+    width: 900px;
+    margin-left: 60px;
+    margin-top: 10px;
+    float: left;
+}
+#texto5{
+    height: 300px;
+    width: 600px;
+    margin-left: 70px;
+    margin-top: 10px;
+    float: left;   
+}
+
+#texto6{
+    height: 200px;
+    width: 900px;
+    margin-left: 70px;
+    margin-top: 30px;
+    float: left;   
+}
+#texto-final{
+    height: 300px;
+    width: 900px;
+    margin-left: 70px;
+    margin-top: 10px;
+    float: left;   
+}
+p{
+    margin-top: 5px;  
+}
+
+
+#rodape{
+    height: 100px;
+    width: 95%;
+    background-color: pink;
+    clear: both;
+    margin: 0 auto;
+    margin-top: 10px;
+}
