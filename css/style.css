@@ -4,6 +4,7 @@
     font-family:  Helvetica;
     background: #6C7A89;
     text-decoration: none;
+   
 }
 header h1{
     color: #fff;
@@ -17,11 +18,13 @@ header h1{
    margin-left: 300px;
    font-family: 'Courier New';
    margin-top: 20px;
+  
    
 }
 #cabecalho #sobrenome{
    margin-left: 350px;
    font-family: 'Courier New';
+
    
 }
 
@@ -64,7 +67,6 @@ line-height: 20px;
 #principal{
     height: 300px;
     width: 300px;
-    
     float: left;
     margin-top: 10px;
     margin-left: 10px;

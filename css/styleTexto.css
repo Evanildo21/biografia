@@ -1,74 +1,63 @@
-#texto1{
-    height: 300px;
-    width: 200px;
+.texto{
     float: left;
+    height: 300px;
     margin-left: 60px;
+}
+p{
+    margin-top: 5px;  
+}
+
+#texto1{
+    width: 200px;
     margin-top: 10px;
-    
     }
 
 #texto2{
-    height: 300px;
     width: 700px;
-    float: left;
-    margin-left: 60px;
     margin-top: 40px;
     }
     
 #texto3{
-    height: 350px;
     width: 700px;
-    float: left;
-    margin-left: 60px;
     margin-top: 30px;
 }
  
 #texto4{
-    height: 250px;
     width: 900px;
-    margin-left: 60px;
     margin-top: 10px;
-    float: left;
 }
 #texto5{
-    height: 300px;
     width: 600px;
     margin-left: 70px;
     margin-top: 10px;
-    float: left;   
 }
 
 #texto6{
     height: 200px;
     width: 900px;
     margin-left: 70px;
-    margin-top: 30px;
-    float: left;   
+    margin-top: 60px;
+ 
 }
 #texto-final{
-    height: 300px;
     width: 900px;
     margin-left: 70px;
     margin-top: 10px;
-    float: left;   
-}
-p{
-    margin-top: 5px;  
-}
-
-
-#texto-final{
-    height: 250px;
-    width: 900px;
-    margin-left: 70px;
-    margin-top: 10px;
-    float: left;   
-}
-#t{
-    height: 50px;
-    width: 1100px;
-    margin-left: 70px;
-    margin-top: 10px;
-    float: left;   
     
+}
+#references{
+    height: 100px;
+    width: 900px;
+    margin-left: 70px;
+    margin-top: 10px;
+}
+
+#comentario{
+    box-sizing: border-box;
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    
+   
 }

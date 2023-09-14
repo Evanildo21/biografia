@@ -7,24 +7,30 @@
 form{
     background-color: #fff;
     max-width: 500px;
-    height: 350px;
+    height: 200px;
     padding: 40px;
     border-radius: 20px 0;
     font-size: 12px;
     float:left
 }
+form h1{
+    background-color: #fff;
+}
 
 .input-single{
     position: relative;
     margin: 10px 0;
-    float: left;
+    
+    
 }
+
 .input-single label{
     position: absolute;
     left:0;
     bottom: 5px;
     transition: all 0.2s;
-    float:left;
+    background-color: #fff;
+   
 }
 .input{
      width: 100%;
@@ -33,7 +39,8 @@ form{
      padding: 5px;
      font-size: 15px;
      outline: 0;
-     float:left;
+     background-color: #fff;
+     
 }
 form .input-single .input:focus ~ label, /* focus serve para quando o usuario interagir na caixa de texto*/
 form .input-single .input:valid ~ label{ 
@@ -46,13 +53,16 @@ form .input-single .input:valid ~ label{
 /*star*/
 .avaliacao{
     display: flex;
-    
+    background-color: #fff;
 }
 .star-icon{
     list-style-type:none ;
     border: 1px solid #fff;
     cursor:pointer;
     color: #ffe500;
+    background-color: #fff;
+    font-size: 2em;
+    
 }
 .star-icon::before{
     content: "\2605";
@@ -72,6 +82,7 @@ form .input-single .input:valid ~ label{
 .enviar{
 width: 100%;
 text-align: center;
+background-color: #fff;
 
 }
 form input[type=submit]{

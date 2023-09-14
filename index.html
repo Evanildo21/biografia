@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>projeto</title>
+    <link rel="stylesheet" href="css/styleAvaliacao.css">
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/styleTexto.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
@@ -119,13 +120,44 @@
         <p>Em janeiro de 1952, teve sua casa assaltada pelo rapaz com quem vivia um relacionamento, e, ao admitir para a polícia seu envolvimento com o assaltante, foi indiciado por “indecência grave”. Naquela época, a homossexualidade era proibida na Inglaterra, e isso levou Turing a julgamento.</p>
         <p>Condenado por indecência grave, o matemático foi forçado a afastar-se de seu ofício. Para evitar ser preso, Turing aceitou passar por um “tratamento” à base de estrogênio (hormônio feminino) que, na verdade, consistia em uma castração química.</p>
     </div>
-    <div  id = "texto-final">
+    <div  class="texto" id = "texto-final">
         <h3>morte e o legado</h3>
         <p>Em 8 de junho de 1954, aos 41 anos de idade, Alan Turing foi encontrado morto em sua casa. 
             A causa da morte foi envenenamento por cianeto, possivelmente por ingerir uma maçã envenenada com esse composto. Assim, registrou-se sua morte como resultado de um suicídio, embora familiares do matemático tenham argumentado, anos depois, que ela aconteceu por engano. Os restos mortais de Turing foram cremados, e até hoje não se sabe se sua morte foi acidental ou proposital.</p>
         <p>O maior legado deixado pelo matemático Alan Turing é, sem dúvidas, a invenção da máquina de Turing. Esta é um modelo teórico que pode ser usado para implementar todos os aspectos lógicos e matemáticos de um computador, independentemente de como ele venha a ser construído (mecânica ou eletronicamente, por exemplo).
              A máquina de Turing foi criada em 1936, muito tempo antes da invenção dos computadores modernos. A maior parte dos nossos dispositivos eletrônicos, como celulares e computadores, são máquinas programáveis, que operam de acordo com os fundamentos da máquina de Turing. As calculadoras, por exemplo, operam como as primeiras máquinas de Turing, programadas para realizar cálculos simples.
             </p>
+        </div>
+
+        <div class="texto" id="references">
+            referência: SILVA, Daniel Neves. "Alan Turing"; Brasil Escola. Disponível em: https://brasilescola.uol.com.br/biografia/alan-mathison.htm.
+        </div>
+        <div id="comentario">    
+            <div class="conteiner">
+                <form action="" >
+                <h1>deixe um comentario e avaliação</h1>
+                <div class="input-single"> 
+                    <input type="text" name="name" id="name-box" class="input" autocomplete="off" required>
+                    <label for="nome-box">nome</label>
+                </div>
+                <div class="input-single"> 
+                    <input type="text" name="name" id="coment-box" class="input" autocomplete="off" required>
+                    <label for="coment-box">comentario/(sujestão de tema)</label>
+                </div>
+                <ul class="avaliacao">
+                
+                    <li class="star-icon ativo" data-avaliacao="1"> </li>
+                    <li class="star-icon " data-avaliacao="2"> </li>
+                    <li class="star-icon" data-avaliacao="3"> </li>
+                    <li class="star-icon" data-avaliacao="4"> </li>
+                    <li class="star-icon" data-avaliacao="5"> </li>
+                
+                </ul>
+                <div class="enviar">
+                    <input type="submit" id="send" value="enviar">
+                </div>    
+            </form>
+            </div>
         </div>
     <div id="rodape">
        
