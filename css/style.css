@@ -114,12 +114,12 @@ line-height: 20px;
     margin-left: 60px;
 }
 #comentario{
-    height: 500px;
+    height: 1200px;
     width: 1100px;
     margin-left: 70px;
     margin-top: 50px;
     float: left;   
-    background-color:aqua;
+   
 }
 #rodape{
     height: 100px;
