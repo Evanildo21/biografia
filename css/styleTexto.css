@@ -14,22 +14,33 @@ p{
     }
 
 #texto2{
-    width: 700px;
-   
+    width: 730px;
     }
+#formacao{
+    font-family: 'Courier New';
+    font-size: 30px;
+}
     
 #texto3{
-    width: 700px;
+    width: 790px;
     margin-top: 30px;
 }
  
 #texto4{
     width: 900px;
-    margin-top: 10px;
+    margin-top: 30px;
 }
+
+#texto4 h1{
+    background-color: #fafafaa6;
+    -webkit-border-radius: 25px;
+    height: 45px;
+    width: 1300px;
+}
+
 #texto5{
-    width: 600px;
-    margin-left: 70px;
+    width: 710px;
+    margin-left: 30px;
     margin-top: 10px;
 }
 
@@ -38,27 +49,27 @@ p{
     width: 900px;
     margin-left: 70px;
     margin-top: 60px;
+
  
 }
 #texto-final{
     width: 900px;
     margin-left: 70px;
     margin-top: 10px;
-    
+   
 }
 #references{
     height: 100px;
     width: 900px;
     margin-left: 70px;
     margin-top: 10px;
+   
 }
 
 #comentario{
-    box-sizing: border-box;
-    background-position:center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    display: flex;
+
+    float: left;
+ 
     
    
 }

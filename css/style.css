@@ -14,20 +14,27 @@ header h1{
     justify-content: center;
     background-color: #810E13;
     height: 50px;
-    font-family: 'Courier Prime', monospace;
-    
-  
+    font-family: 'Courier New';
+    font-size: 30px; 
+    -webkit-border-radius: 16px;
 }
+h1{
+    background-color: #fafafa09;
+   font-family: 'Courier New';
+    font-size: 20px;
+    margin-top: 10px;
+ }
 #cabecalho #nome{
    margin-left: 300px;
    font-family: 'Courier New';
    margin-top: 20px;
-  
-   
+   font-size: 25px;
 }
+
 #cabecalho #sobrenome{
    margin-left: 350px;
    font-family: 'Courier New';
+   font-size: 25px;
 }
 html{
     scroll-behavior: smooth;
@@ -93,16 +100,20 @@ line-height: 20px;
     display: flex;
     flex-direction:column;
     text-align: center;
- 
+}
+#L1{
+    font-weight: 700;
+    font-size: 20px;
+    font-family: 'Courier New';
     
-    
+  
 }
 #lado2{
     height: 130px;
     width: 300px;
     font-size: 18px;
     float:left;
-    margin-top: 10px;
+    margin-top: 15px;
     margin-left: 30px;
     background-color: #fafafaa6;
     display: flex;
@@ -111,11 +122,7 @@ line-height: 20px;
     -webkit-border-radius: 25px;
 }
 
-#lado2 p{
-    background-color: #fafafa09;
-   font-family: 'Courier New';
-   font-weight: bold;
-}
+
 #lado2 a{
     margin-top: 5px;;
     background-color: #fafafa09;
@@ -135,31 +142,71 @@ line-height: 20px;
 }
 
 
-#foto2{
+#foto2 img{
     float: left;
-    margin-top: 10px;
+    max-width: 420px;
+    max-height: 420px;
+    width: auto;
+    height: auto;
+    margin-top: 30px;
     margin-left: 10px;
+ 
   
 }
-#foto3{
-    height: 300px;
-    width: 450px;
+#foto3 img{
+    height: auto;
+    width: auto;
     float: left;
     margin-left: 60px;
 }
 #comentario{
-    height: 1200px;
+    height: 500px;
     width: 1100px;
     margin-left: 70px;
-    margin-top: 50px;
+   
     float: left;   
    
 }
 #rodape{
     height: 100px;
     width: 95%;
-    background-color: #3db36b;
+    background-color: #810E13;
     clear: both;
     margin: 0 auto;
     margin-top: 10px;
+}
+
+.barra-cor{
+  
+        height:1200px;
+        width: 200px;
+        float:right;
+        margin-right: 30px;
+        margin-top: 10px;
+        background-color: #fafafaa6;
+        
+        display: flex;
+        flex-direction:column;
+        text-align: center;
+        
+}
+.barra-cor #bc1{
+    background-color: #38050E;
+    height:400px;
+    
+}
+.barra-cor #bc2{
+    background-color: #640D15;
+    height:400px;
+    
+}
+.barra-cor #bc3{
+    background-color: #810E13;
+    height:400px;
+    
+}
+.barra-cor #bc4{
+    background-color: #AE2831;
+    height:400px;
+    
 }
