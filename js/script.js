@@ -6,14 +6,14 @@ window.onload=function(){
         e.preventDefault();
         const name =document.querySelector("#name-box");
         const value = name.value;
-        console.log(value);
+      document.getElementById("jpg").innerHTML=" usuario "+value
     }
     );
     btn.addEventListener("click",function(e){
         e.preventDefault();
         const comentario =document.querySelector("#coment-box");
         const value = comentario.value;
-        console.log(value);
+        document.getElementById("comentario1").innerHTML="comentario "+value
     });
     
     

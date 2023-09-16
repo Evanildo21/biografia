@@ -67,9 +67,18 @@ p{
 }
 
 #comentario{
-
+    height: 1000px;
+    float: left;   
+}
+.coment{
     float: left;
- 
-    
-   
+    height: 100px;
+    width: 900px;
+    margin-top: 20px;
+    -webkit-border-radius: 25px;
+    border: solid #2e2b2ba6;
+    background-color: aliceblue;
+}
+.coment p{
+    background-color: rgba(240, 248, 255, 0);
 }
