@@ -2,16 +2,20 @@
     margin: 0;
     padding: 0;
     font-family:  Helvetica;
-    background: #6C7A89;
+    background: #EDB079;
     text-decoration: none;
+
    
 }
 header h1{
     color: #fff;
     padding: 15px;
     text-align: center;
-    background-color: #3db36b;
-    font-family: 'Courier New';
+    justify-content: center;
+    background-color: #810E13;
+    height: 50px;
+    font-family: 'Courier Prime', monospace;
+    
   
 }
 #cabecalho #nome{
@@ -24,10 +28,7 @@ header h1{
 #cabecalho #sobrenome{
    margin-left: 350px;
    font-family: 'Courier New';
-
-   
 }
-
 html{
     scroll-behavior: smooth;
     font-size: 90.5%;
@@ -40,23 +41,32 @@ a{
  width: 95%;
  margin: 0 auto;
 }
-#menu{
-  height:600px;
+.menu{
+height:600px;
 width: 200px;
 float: left;
 margin-left: 60px;
 margin-top: 10px;
 background-color: #fafafaa6;
-border-radius: 3%;
+-webkit-border-radius: 25px;
+display: flex;
+flex-direction:column;
+text-align: center;
+border: solid #810E13;
+
+
 }
-#menu p{
+
+
+.menu p{
 background-color: #fafafa09;
 text-decoration: underline;
 font-size: 17px;
 margin-left: 20px;
 line-height: 20px;
 }
-#menu h2{
+
+.menu h2{
 margin-top: 30px;
 background-color: #fafafa09;
 font-size: 17px;
@@ -65,11 +75,12 @@ line-height: 20px;
 }
 
 #principal{
-    height: 300px;
+    height: 250px;
     width: 300px;
     float: left;
     margin-top: 10px;
     margin-left: 10px;
+   
 
 }
 #lado1{
@@ -79,17 +90,37 @@ line-height: 20px;
     float:left;
     margin-top: 10px;
     margin-left: 10px;
-    font-weight: 700;
+    display: flex;
+    flex-direction:column;
+    text-align: center;
+ 
+    
     
 }
 #lado2{
-    height: 100px;
-    width: 400px;
+    height: 130px;
+    width: 300px;
     font-size: 18px;
     float:left;
     margin-top: 10px;
-    margin-left: 10px;
-    }
+    margin-left: 30px;
+    background-color: #fafafaa6;
+    display: flex;
+    flex-direction:column;
+    text-align: center;
+    -webkit-border-radius: 25px;
+}
+
+#lado2 p{
+    background-color: #fafafa09;
+   font-family: 'Courier New';
+   font-weight: bold;
+}
+#lado2 a{
+    margin-top: 5px;;
+    background-color: #fafafa09;
+    font-weight: bold;
+}
 
 #lado3{
     height: 100px;
@@ -97,9 +128,10 @@ line-height: 20px;
     font-size: 20pxl;
     float:left;
     margin-top: 50px;
-    margin-left: 10px;
-    font-weight: 700;
+    margin-left: 40px;
+    font-weight: 900;
     font-style: italic;
+    
 }
 
 
